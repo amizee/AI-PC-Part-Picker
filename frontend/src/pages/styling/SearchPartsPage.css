@@ -1,0 +1,111 @@
+/* Center and style the page title */
+h2 {
+    text-align: center;
+    font-size: 36px; /* Make it larger */
+    color: #3498db;  /* Set it to blue */
+    margin: 20px 0;
+}
+
+/* Center the entire search bar and filters section */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Style the search bar */
+.search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Style input and button elements */
+.search-bar input,
+.search-bar select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1; /* Ensure the input takes equal space */
+    max-width: 300px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #2980b9;
+}
+
+/* Filters below search bar in a horizontal row */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.filters div {
+    display: flex;
+    align-items: center;
+}
+
+.filters label {
+    margin-left: 5px;
+}
+
+/* Styling for search results */
+.results {
+    margin: 20px;
+}
+
+.parts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.part-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.part-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.part-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.part-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.part-name {
+    margin: 0;
+    font-size: 18px;
+    color: #3498db;
+    font-weight: bold;
+}
+

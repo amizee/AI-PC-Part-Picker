@@ -1,0 +1,85 @@
+.pcpart-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.pcpart-detail h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.pcpart-detail img {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.pcpart-detail p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #555;
+    text-align: center;
+}
+
+.pcpart-detail button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pcpart-detail button:hover {
+    background-color: #0056b3;
+}
+
+.details_section {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.details_section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.details_section p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .pcpart-detail {
+        padding: 15px;
+    }
+
+    .pcpart-detail img {
+        max-width: 100%;
+    }
+
+    .pcpart-detail h1 {
+        font-size: 1.5rem;
+    }
+
+    .details_section h3 {
+        font-size: 1.2rem;
+    }
+}

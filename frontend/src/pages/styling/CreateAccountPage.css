@@ -1,0 +1,71 @@
+/* Global container */
+.create-account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 100vh;
+  background-color: #f3f3f3;
+  padding: 30px 20px;
+  gap: 20px;
+}
+
+/* Large title styling */
+.form-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #3498db;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form container styling */
+.form-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Adjusted width for better centering */
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between form elements */
+}
+
+/* Input fields and labels */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Submit button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}

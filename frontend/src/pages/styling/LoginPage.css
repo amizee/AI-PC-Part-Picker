@@ -1,0 +1,48 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #3498db;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px; /* Adjust this width if needed */
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; /* Ensures both buttons take full width of the form */
+  }
+  
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
